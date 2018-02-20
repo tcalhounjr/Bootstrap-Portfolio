@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.tc-navbar {
+    margin-bottom: 0;
+}
+
+.tc-navbar-brand {
+    /*background-color: teal;*/
+    font-family: fantasy;
+    position: relative;
+    left: 100px;
+    padding-left: 0;
+}
+
+.tc-navbar-links {
+    position: relative;
+    right: 100px;
+    font-family: fantasy;
+}
+
+  a:visited {
+    color: maroon;
+}
+
+  a:link {
+    color: red;
+}
+
+  body {
+    background-image: url("../assets/images/vintage-concrete.png");
+    background-color: gray;
+}
+
+.header-img-container {
+    min-height: 650px;
+    background-image: url(../assets/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    /*padding: 40px; (If don't want to set min-height or some image content is there) */
+}
+
+#tc-footer {
+    color: blue;
+    font-family: fantasy;
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+}
