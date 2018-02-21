@@ -28,15 +28,32 @@
     <div class="header-img-container tc-img-padding"></div>
     <div class="container">
         <div class="row">
-            <div class="col-md-7 tc-about-me">
+            <div class="col-md-7 tc-contact-form">
                 <header class="tc-about-me-header"><h1>Contact</h1></header>
                 <hr class="tc-about-me-hr">
-                <div><img class="tc-about-me-img-float" src="assets/images/tcjr.jpg" alt="Smiley face" height="250" width="250">
-                    <p class="tc-about-me-txt-float">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque earum odio, necessitatibus modi minima distinctio 
-                        porro similique voluptate voluptaslibero quod accusantium dicta facere architecto. Quaerat nostrum quod excepturi pariatur.
-                    </p>
-                </div>  
+                <div class="form-group row tc-contact-form-fields">
+                    <label for="tc-contact-name-input" class="col-2 col-form-label">Name</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" value="Rich Blackman III" id="tc-contact-name-input">
+                    </div>
+                </div>
+                <div class="form-group row tc-contact-form-fields">
+                    <label for="tc-contact-email-input" class="col-2 col-form-label">POC Email</label>
+                    <div class="col-10">
+                        <input class="form-control" type="email" value="calhounspeaks[at]gmail.com" id="tc-contact-email-input">
+                    </div>
+                </div>
+                <div class="form-group row tc-contact-form-fields">
+                    <label for="tc-contact-url-input" class="col-2 col-form-label">Company URL</label>
+                    <div class="col-10">
+                        <input class="form-control" type="url" value="https://www.nafasi.co" id="tc-contact-url-input">
+                    </div>
+                </div>
+                <div class="form-group tc-contact-form-fields tc-contact-form-textarea">
+                    <label for="tc-contact-form-textarea">Briefly describe your startup story</label>
+                    <textarea class="form-control" id="tc-contact-form-textarea" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary tc-contact-form-submit">Submit</button>
             </div>
             <div class="col-md-3 tc-connect-with-me">
                 <header class="tc-about-me-header"><h2>Connect with Me</h2></header>
