@@ -9,7 +9,6 @@
 }
 
 .tc-navbar-brand {
-    /*background-color: teal;*/
     font-family: fantasy;
     position: relative;
     left: 100px;
@@ -23,12 +22,12 @@
     color: red;
 }
 
-  a:visited {
-    color: maroon;
+  a.navbar-nav:visited {
+    color: teal;
 }
 
-  a:link {
-    color: red;
+  a.navbar-nav:link {
+    color: maroon;
 }
 
   body {
@@ -121,6 +120,17 @@
     height: 750px;
 }
 
+.tc-portfolio {
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-color: teal;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    height: 750px;
+}
+
 .tc-contact-form-fields {
     width: 90%;
     margin-left: 20px;
@@ -136,6 +146,22 @@
     background-color: teal;
 }
 
-button:hover {
+button.btn:hover {
     background-color: maroon;
+}
+
+.tc-portfolio-hr {
+    border: none;
+    height: 3px;
+    background-color: lightgray;
+    margin-bottom: 45px;
+}
+
+.tc-portfolio-row-items {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.tc-portfolio-col-img {
+    margin-left: 10px;
 }
