@@ -22,8 +22,8 @@
     color: red;
 }
 
-  a.navbar-nav:visited {
-    color: teal;
+a.tc-test p:hover {
+    color: red;
 }
 
   a.navbar-nav:link {
